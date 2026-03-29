@@ -6,7 +6,7 @@ import io
 app = Flask(__name__)
 
 # This matches the "Client" logic from your working weldsense.py
-client = genai.Client(api_key="AIzaSyDaqelwQ68tTBeYFaJ04H4BKGXeL1qsPbs")
+client = genai.Client(api_key=" ")
 
 @app.route('/')
 def index():
