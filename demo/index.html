@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WeldSense AI</title>
+    <style>
+        body { font-family: sans-serif; background: #121212; color: white; text-align: center; padding: 50px; }
+        .container { background: #1e1e1e; padding: 30px; border-radius: 15px; display: inline-block; }
+        input { margin: 20px; }
+        #result { margin-top: 20px; font-weight: bold; font-size: 1.2em; }
+        .PASS { color: #4CAF50; }
+        .FAIL { color: #f44336; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>WeldSense AI 🛠️</h1>
+        <p>Upload a weld image for instant inspection</p>
+        <input type="file" id="imageInput" accept="image/*">
+        <br>
+        <button onclick="analyze()">Run Inspection</button>
+        <div id="result"></div>
+    </div>
+
+    <script>
+        async function analyze() {
+            const input = document.getElementById('imageInput');
+            const resultDiv = document.getElementById('result');
+            if (!input.files[0]) return alert("Please select an image first!");
+
+            resultDiv.innerHTML = "Processing...";
+            const formData = new FormData();
+            formData.append('image', input.files[0]);
+
+            const response = await fetch('/inspect', { method: 'POST', body: formData });
+            const data = await response.json();
+
+            if (data.error) {
+                resultDiv.innerHTML = "Error: " + data.error;
+            } else {
+                resultDiv.innerHTML = `
+                    <div class="${data.VERDICT}">
+                        VERDICT: ${data.VERDICT}<br>
+                        DEFECT: ${data.DEFECT}<br>
+                        CONFIDENCE: ${data.CONFIDENCE}<br>
+                        REASON: ${data.REASON}
+                    </div>`;
+            }
+        }
+    </script>
+</body>
+</html>
