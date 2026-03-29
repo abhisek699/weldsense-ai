@@ -73,11 +73,11 @@ Target: First paying customer by Month 7
 
 Project Structure
 weldsense-ai:
-demo-          Gemini-powered web demo application
-model-         YOLOv8 training notebooks and model files
-data-          Weld defect image dataset and labels
-hardware-      Circuit diagrams and hardware specifications
-docs-          System design documents and pitch materials
+demo-          Gemini-powered web demo application. 
+model-         YOLOv8 training notebooks and model files. 
+data-          Weld defect image dataset and labels. 
+hardware-      Circuit diagrams and hardware specifications. 
+docs-          System design documents and pitch materials. 
 
 Contact
 Abhisek Tripathy
