@@ -4,7 +4,7 @@ from PIL import Image
 import sys
 import os
 
-client = genai.Client(api_key=" ")
+client = genai.Client(api_key="api key will be inserted here")
 
 def inspect_weld(image_path):
 
