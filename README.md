@@ -20,22 +20,22 @@ Response time: under 5 seconds per weld
 
 How It Works
 
-Welder completes a weld pass
-Current sensor detects arc stopping automatically
-System waits 4 seconds for weld to cool
-8MP camera captures weld image with LED ring light
-YOLOv8 AI model classifies the weld in 200 milliseconds
-Result displayed as PASS in green or FAIL in red with defect type
-WhatsApp alert sent to supervisor if defect found
-All results saved to dashboard with full image archive
+Welder completes a weld pass.
+Current sensor detects arc stopping automatically.
+System waits 4 seconds for weld to cool.
+8MP camera captures weld image with LED ring light.
+YOLOv8 AI model classifies the weld in 200 milliseconds.
+Result displayed as PASS in green or FAIL in red with defect type.
+WhatsApp alert sent to supervisor if defect found.
+All results saved to dashboard with full image archive.
 
 
 Defects Detected
-Porosity - gas pits trapped on weld surface
-Undercut - groove melted along the weld edge
-Surface cracks - fractures visible on the weld bead
-Spatter - molten metal droplets scattered around weld
-Overlap - weld metal spilling over base metal without fusing
+Porosity - gas pits trapped on weld surface.
+Undercut - groove melted along the weld edge.
+Surface cracks - fractures visible on the weld bead.
+Spatter - molten metal droplets scattered around weld.
+Overlap - weld metal spilling over base metal without fusing.
 
 
 Technology Stack
@@ -84,8 +84,8 @@ hardware-      Circuit diagrams and hardware specifications.
 docs-          System design documents and pitch materials. 
 
 Contact
-Abhisek Tripathy
-B.Tech Mechanical Engineering Year 2
-Veer Surendra Sai University of Technology, Burla, Odisha
+Abhisek Tripathy.
+B.Tech Mechanical Engineering 2nd Year.
+Veer Surendra Sai University of Technology, Burla, Odisha.
 
 Built at VSSUT Burla, Odisha - solving a real problem for the steel industry within 150km of this campus.
