@@ -62,17 +62,17 @@ Zero funded startups and zero multinational companies have deployed AI weld insp
 Indian competitors including SwitchOn and Jidoka Technologies focus entirely on automotive clusters in Tamil Nadu, Karnataka, and Maharashtra. The entire eastern India steel belt is completely unclaimed territory.
 
 Current Status
-- System architecture and hardware specifications: COMPLETE
-- Customer discovery: 10+ conversations with fabrication 
-  shop owners near Sambalpur - COMPLETE
-- Weld defect image dataset: 5 categories collected - COMPLETE
-- Dataset labelled on Roboflow- COMPLETE
-- YOLOv8 model: TRAINED - see /model folder for best.pt and training accuracy graphs
-- Gemini Vision API demo: WORKING - see demo video link above
-- Flask web application: BUILT - see /demo folder
-- Next step: Deploy on Raspberry Pi, get first pilot customer
-- Roboflow dataset: 38 labelled weld images, 5 defect categories, Version 1 - 
+- Customer discovery: 10+ conversations with fabrication shop owners near Sambalpur - COMPLETE
+- Weld defect image dataset: 38 images across 5 defect categories - COMPLETE
+- Dataset labelled on Roboflow - COMPLETE
   https://universe.roboflow.com/abhiseks-workspace-fhqbe/weldsense-ai-defect-detection/dataset/1
+- YOLOv8 model trained on Google Colab - COMPLETE
+  See /model folder for best.pt and training graphs
+- Flask web application demo built - COMPLETE
+  See /demo folder
+- Demo video recorded - COMPLETE
+  https://youtu.be/K0LlofZfUFk
+- Application submitted: IIMA Ventures AI Summer Residency 2026
 
 
 Project Structure
