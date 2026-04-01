@@ -1,9 +1,9 @@
-WeldSense AI
-AI-Powered Weld Quality Inspection for Indian Fabrication Industries
-Developer: Abhisek Tripathy
-Institution: Veer Surendra Sai University of Technology (VSSUT), Burla, Odisha
-Programme: B.Tech Mechanical Engineering, Year 2
-Status: Prototype in development - March 2026
+WeldSense AI. 
+AI-Powered Weld Quality Inspection for Indian Fabrication Industries. 
+Developer: Abhisek Tripathy. 
+Institution: Veer Surendra Sai University of Technology (VSSUT), Burla, Odisha. 
+Programme: B.Tech Mechanical Engineering, 2nd Year . 
+Status: Prototype in development - March 2026. 
 
 The Problem
 India produces 140 million tonnes of steel annually. Odisha alone has 50+ steel plants within 150km of VSSUT Burla. Every plant uses fabrication contractors who weld structural components daily.
