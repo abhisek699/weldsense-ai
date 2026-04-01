@@ -3,11 +3,11 @@ AI-Powered Weld Quality Inspection for Indian Fabrication Industries
 Developer: Abhisek Tripathy
 Institution: Veer Surendra Sai University of Technology (VSSUT), Burla, Odisha
 Programme: B.Tech Mechanical Engineering, Year 2
-Status: Prototype in development — March 2026
+Status: Prototype in development - March 2026
 
 The Problem
 India produces 140 million tonnes of steel annually. Odisha alone has 50+ steel plants within 150km of VSSUT Burla. Every plant uses fabrication contractors who weld structural components daily.
-These welds have defects — porosity, undercut, cracks, spatter — at a rate of 4 to 10% of all welds. Human inspectors miss 20 to 30% of these defects due to fatigue and inconsistent lighting.
+These welds have defects - porosity, undercut, cracks, spatter - at a rate of 4 to 10% of all welds. Human inspectors miss 20 to 30% of these defects due to fatigue and inconsistent lighting.
 Existing solutions like Cognex and Keyence cost Rs 15 lakh to Rs 80 lakh per installation. Small fabrication shops earning Rs 2 crore annually cannot afford them. There is no affordable solution for this market.
 WeldSense AI fills this gap.
 
@@ -31,12 +31,11 @@ All results saved to dashboard with full image archive
 
 
 Defects Detected
-
-Porosity — gas pits trapped on weld surface
-Undercut — groove melted along the weld edge
-Surface cracks — fractures visible on the weld bead
-Spatter — molten metal droplets scattered around weld
-Overlap — weld metal spilling over base metal without fusing
+Porosity - gas pits trapped on weld surface
+Undercut - groove melted along the weld edge
+Surface cracks - fractures visible on the weld bead
+Spatter - molten metal droplets scattered around weld
+Overlap - weld metal spilling over base metal without fusing
 
 
 Technology Stack
@@ -50,10 +49,11 @@ Technology Stack
 | Alerts | WhatsApp API (Twilio) | Free tier |
 | Training | Google Colab (free GPU) | Free |
 | Mobile Demo | Google Gemini Vision API | Free tier |
+| Training Dataset | Roboflow — 38 labelled weld images, 5 defect classes | Free |
 
 
 Target Market
-Primary customers: Industrial fabrication contractors near Sambalpur, Jharsuguda, and Rourkela — within 0 to 90km of VSSUT Burla — who supply structural steel to sponge iron and steel plants.
+Primary customers: Industrial fabrication contractors near Sambalpur, Jharsuguda, and Rourkela - within 0 to 90km of VSSUT Burla - who supply structural steel to sponge iron and steel plants.
 Secondary customers: In-house maintenance workshops inside sponge iron plants including Maa Samaleswari, Aryan Ispat, and Shyam Metalics located 20 to 45km from campus.
 Total addressable market: 50+ steel plants in Odisha with zero AI weld inspection deployed today.
 
@@ -62,13 +62,17 @@ Zero funded startups and zero multinational companies have deployed AI weld insp
 Indian competitors including SwitchOn and Jidoka Technologies focus entirely on automotive clusters in Tamil Nadu, Karnataka, and Maharashtra. The entire eastern India steel belt is completely unclaimed territory.
 
 Current Status
-
-System architecture and hardware specifications complete
-Customer discovery completed — 10 plus conversations with fabrication shop owners near Sambalpur
-Gemini Vision API demo prototype running on laptop
-Weld image dataset collection from local samples in progress
-YOLOv8 model training pipeline set up on Google Colab
-Target: First paying customer by Month 7
+- System architecture and hardware specifications: COMPLETE
+- Customer discovery: 10+ conversations with fabrication 
+  shop owners near Sambalpur - COMPLETE
+- Weld defect image dataset: 5 categories collected - COMPLETE
+- Dataset labelled on Roboflow- COMPLETE
+- YOLOv8 model: TRAINED - see /model folder for best.pt and training accuracy graphs
+- Gemini Vision API demo: WORKING - see demo video link above
+- Flask web application: BUILT - see /demo folder
+- Next step: Deploy on Raspberry Pi, get first pilot customer
+- Roboflow dataset: 38 labelled weld images, 5 defect categories, Version 1 - 
+  https://universe.roboflow.com/abhiseks-workspace-fhqbe/weldsense-ai-defect-detection/dataset/1
 
 
 Project Structure
@@ -84,4 +88,4 @@ Abhisek Tripathy
 B.Tech Mechanical Engineering Year 2
 Veer Surendra Sai University of Technology, Burla, Odisha
 
-Built at VSSUT Burla, Odisha — solving a real problem for the steel industry within 150km of this campus.
+Built at VSSUT Burla, Odisha - solving a real problem for the steel industry within 150km of this campus.
