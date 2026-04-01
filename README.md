@@ -49,7 +49,7 @@ Technology Stack
 | Alerts | WhatsApp API (Twilio) | Free tier |
 | Training | Google Colab (free GPU) | Free |
 | Mobile Demo | Google Gemini Vision API | Free tier |
-| Training Dataset | Roboflow — 38 labelled weld images, 5 defect classes | Free |
+| Training Dataset | Roboflow - 38 labelled weld images, 5 defect classes | Free |
 
 
 Target Market
