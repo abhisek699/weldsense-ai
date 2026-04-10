@@ -80,8 +80,7 @@ Current Status
 - Flask web application demo built - COMPLETE
   See /demo folder
 - Demo video recorded - COMPLETE
- (the demo video is made using Google AI Studio, but in actual product weld images will be processed by a trained image model running in a raspberry pi)
-  https://youtu.be/K0LlofZfUFk
+  demo video link-   https://youtu.be/x-2xpbtoX7E
 - Application submitted: IIMA Ventures AI Summer Residency 2026
 
 
