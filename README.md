@@ -21,6 +21,17 @@ The Solution
 - Detection accuracy: 95 to 98%
 - Response time: under 5 seconds per weld
 
+## 🔧 Hardware Architecture
+The WeldSense AI system is designed for the rugged conditions of an Indian fabrication shop.
+
+<p align="center">
+  <img src="https://github.com/abhisek699/weldsense-ai/blob/main/hardware/hardware%20setup%20image.png" alt="WeldSense AI Hardware Setup" width="800">
+  <br>
+  <b>Figure 1: Industrial Hardware Configuration for WeldSense AI</b>
+</p>
+
+*The setup features a tripod-mounted 8MP camera, LED ring light, Raspberry pi 4 inside the controller box and a screen. Camera triggered automatically by a current transformer on the welding gun cable.*
+
 How It Works
 
 - Welder completes a weld pass.
@@ -41,6 +52,17 @@ Defects Detected
 - Spatter - molten metal droplets scattered around weld.
 - Overlap - weld metal spilling over base metal without fusing.
 
+## 📊 Quality Assurance & Audit Trails
+WeldSense AI generates formal documentation required for vendor qualification with large-scale plants (e.g., JSW, Shyam Metalics).
+
+### Sample Batch Quality Report
+[Download Full Excel Report (.xlsx)](docs/WeldSense_Quality_Log_April_2026.csv)
+
+| Timestamp | Job_ID | Verdict | Defect_Type | Confidence |
+| :--- | :--- | :--- | :--- | :--- |
+| 2026-04-09 10:30 | STR-202 | **FAIL** | POROSITY | 87.5% |
+| 2026-04-09 10:32 | STR-202 | **PASS** | NONE | 98.2% |
+| 2026-04-09 10:35 | STR-202 | **PASS** | NONE | 99.1% |
 
 Technology Stack
 
