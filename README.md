@@ -3,8 +3,8 @@ WeldSense AI.
 - AI-Powered Weld Quality Inspection for Indian Fabrication Industries. 
 -  Developer: Abhisek Tripathy. 
 - Institution: Veer Surendra Sai University of Technology (VSSUT), Burla, Odisha. 
-- Programme: B.Tech Mechanical Engineering, 2nd Year . 
-- Status: Phase 1 PoC Completed – Entering Phase 2 Enterprise Scaling (TATA InnoVent)Prototype in development - March 2026. 
+- Programme: B.Tech Mechanical Engineering, 3rd Year . 
+- Status: devloping the MVP.
 
 The Problem
 
@@ -16,13 +16,6 @@ The Problem
 The Solution
 
 - WeldSense AI is a hardware and software system that automatically inspects every weld immediately after it is made, classifies defects using a trained - AI model, and alerts the supervisor in real time.
-- Hardware cost per unit: Rs 8,000 to Rs 10,000
-- Monthly subscription: Rs 12,000 to Rs 25,000
-- Detection accuracy: 95 to 98%
-- Response time: under 5 seconds per weld
-
-### 🚀 Project Roadmap:
-The hardware, metrics, and codebase currently documented in this repository represent **Phase 1: Localized Proof of Concept (PoC)**. This phase successfully validated the core YOLOv8 inference logic on a constrained budget (Raspberry Pi 4) for regional fabricators. 
 
 
 ## 🔧 Hardware Architecture
@@ -79,8 +72,7 @@ Technology Stack
 | Dashboard | Python Streamlit + SQLite | Free |
 | Alerts | WhatsApp API (Twilio) | Free tier |
 | Training | Google Colab (free GPU) | Free |
-| Mobile Demo | Google Gemini Vision API | Free tier |
-| Training Dataset | Roboflow - Baseline PoC dataset, 5 defect classes (Phase 2 dataset scaling in progress) | Free |
+| Training Dataset | Roboflow - Baseline PoC dataset, 5 defect classes (dataset collection from real fabrication shop-floor in progress) | Free |
 
 
 Target Market
@@ -112,7 +104,7 @@ Current Status
 Project Structure
 
 weldsense-ai:
-- demo-          Gemini-powered web demo application. 
+- demo-          video uploaded on youtube. 
 - model-         YOLOv8 training notebooks and model files. 
 - data-          Weld defect image dataset and labels. 
 - hardware-      Circuit diagrams and hardware specifications. 
