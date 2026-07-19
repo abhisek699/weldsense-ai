@@ -66,8 +66,8 @@ Technology Stack
 | Component | Technology | Cost |
 |-----------|-----------|------|
 | AI Model | YOLOv8 (Ultralytics) | Free |
-| Camera | 8MP Sony IMX179 USB | Rs 3,500 |
-| Edge Computer | Raspberry Pi 4 (4GB) | Rs 4,500 |
+| Camera | 8MP Sony IMX179 USB | Rs 8000 |
+| Edge Computer | Raspberry Pi 4 (4GB) | Rs 12000 |
 | Trigger | Current transformer on cable | Rs 300 |
 | Dashboard | Python Streamlit + SQLite | Free |
 | Alerts | WhatsApp API (Twilio) | Free tier |
