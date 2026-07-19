@@ -21,14 +21,9 @@ The Solution
 - Detection accuracy: 95 to 98%
 - Response time: under 5 seconds per weld
 
-### 🚀 Project Roadmap: TATA Technologies InnoVent 2027
+### 🚀 Project Roadmap:
 The hardware, metrics, and codebase currently documented in this repository represent **Phase 1: Localized Proof of Concept (PoC)**. This phase successfully validated the core YOLOv8 inference logic on a constrained budget (Raspberry Pi 4) for regional fabricators. 
 
-We are currently transitioning into **Phase 2: Enterprise Edge Scaling**, which is the core focus of our submission to **TATA Technologies InnoVent 2027**. Phase 2 upgrades this architecture for Tier-1 Heavy Machinery OEMs by:
-* **Edge Acceleration:** Transitioning from Raspberry Pi to NVIDIA industrial accelerators with TensorRT quantization for sub-50ms inference.
-* **Mechanical Integration:** Upgrading the PoC tripod mount to SolidWorks-designed, ANSYS-validated vibration-resistant camera rigs.
-* **Closed-Loop Automation:** Integrating **n8n** nodes to interface directly with factory Programmable Logic Controllers (PLCs) for automated production halting, upgrading from our Phase 1 WhatsApp API alerts.
-* **Dataset Expansion:** Scaling our baseline PoC image dataset into a massive, proprietary industrial dataset (currently maintained as a trade secret).
 
 ## 🔧 Hardware Architecture
 The WeldSense AI system is designed for the rugged conditions of an Indian fabrication shop.
@@ -112,7 +107,6 @@ Current Status
   See /demo folder
 - Demo video recorded - COMPLETE
   demo video link-   https://youtu.be/x-2xpbtoX7E
-- Application submitted: IIMA Ventures AI Summer Residency 2026
 
 
 Project Structure
@@ -126,7 +120,7 @@ weldsense-ai:
 
 Contact
 - Abhisek Tripathy.
-- B.Tech Mechanical Engineering 2nd Year.
+- B.Tech Mechanical Engineering 3rd Year.
 - Veer Surendra Sai University of Technology, Burla, Odisha.
 
 Built at VSSUT Burla, Odisha - solving a real problem for the steel industry within 150km of this campus.
